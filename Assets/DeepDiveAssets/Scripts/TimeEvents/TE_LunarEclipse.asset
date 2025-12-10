@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afef4f8e23931af40adda78a5f5c9f80, type: 3}
+  m_Name: TE_LunarEclipse
+  m_EditorClassIdentifier: Assembly-CSharp::TimeEvent
+  EventId: LunarEclipse
+  AllowedDayParts:
+  - {fileID: 11400000, guid: de2add8fde546024e95e88f60f1a5558, type: 2}
+  WindowStartHour: 0
+  WindowEndHour: 1
+  TriggerMode: 1
+  PeriodDurationHours: 1
+  RandomAfterPeriod: 0
+  RandomExtraMinHours: 0
+  RandomExtraMaxHours: 0
+  OccurrenceMode: 0
+  MinOccurrences: 1
+  MaxOccurrences: 1
+  MinIntervalBetweenOccurrencesMinutes: 0.1
+  MaxIntervalBetweenOccurrencesMinutes: 0.5
+  Frequency: 0
+  StartDayNumber: 0
+  EveryXDays: 3
+  DailyChance: 1
+  EventChannel: {fileID: 11400000, guid: 8254900a7d0ac864baaf8a44bf4a2a42, type: 2}
